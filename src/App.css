@@ -54,7 +54,7 @@ img {
 
 .page_title {
   text-align: center;
-  padding: 100px;
+  padding: 30px 5%;
   font-family: "Noto Serif JP", serif;
   width: auto;
   letter-spacing: 10px;
@@ -62,7 +62,7 @@ img {
 
 .page_content {
   text-align: center;
-  padding: 100px;
+  padding: 30px 5%;
   font-family: "Noto Serif JP", serif;
   width: auto;
   letter-spacing: 5px;

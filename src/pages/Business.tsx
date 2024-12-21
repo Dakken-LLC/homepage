@@ -1,4 +1,5 @@
 import "../App.css";
+import dakken_home from "../assets/dakken_home_1221.png";
 
 export default function BusinessPage() {
   return (
