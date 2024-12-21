@@ -1,3 +1,20 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInOut {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
 
 .APP {
   width: 100%;
@@ -58,6 +75,8 @@ img {
   font-family: "Noto Serif JP", serif;
   width: auto;
   letter-spacing: 10px;
+  border-bottom: 3px solid #000;
+  animation: fadeIn 0.5s ease-in-out;
 }
 
 .page_content {
@@ -72,6 +91,13 @@ img {
   color: rgb(20, 20, 110); /* テキストを赤色に設定 */
 }
 
+.red-text {
+  color: rgb(211, 75, 75); /* テキストを赤色に設定 */
+}
+
+.fade-effect {
+  animation: fadeInOut 5s infinite;
+}
 /* 共通のスタイル */
 h1, h2, h3, h4 {
   text-align: center; /* テキストを中央揃え */
