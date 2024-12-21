@@ -38,6 +38,7 @@
 .page_top_image {
   width: 100%; /* 横幅を100%に設定 */
   min-height: 300px; /* 最低限表示させる高さを設定 */
+  max-height: 500px;
   height: auto; /* 高さを画面の高さに設定 */
   display: block;
   margin: 0; /* 余白を取り除く */
@@ -120,6 +121,8 @@ h3 {
 h4{
   font-size: 1.1rem; /* デフォルトのフォントサイズ */
 }
+
+
 
 /* レスポンシブデザインのためのメディアクエリ */
 @media (min-width: 600px) {

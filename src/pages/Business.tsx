@@ -7,25 +7,23 @@ export default function BusinessPage() {
       <img src={dakken_business} className="page_top_image" alt="Top Image" />
       <div className="page_title">
         <h1>事業内容</h1>
-        <div className="page_content">
+      </div>
+      <div className="page_content">
           <h3>
-            情報科学の知見を学生の
-            <span className="blue-text">若い発想力と実行力で</span>
-            <br></br>
-            デジタル時代の企業の発展に活かす。
+            ITをはじめとした様々な仕事を承ります。
           </h3>
           <br></br>
           <br></br>
           <br></br>
-          <h4>
-            大学で学んだデータサイエンスを中心とした情報科学の知見を<br></br>
-            学生である私たちの柔軟な発想力を活かし、企業のデジタル化に貢献します。
-            <br></br>
-            現代社会において大量に存在する様々なデータを適切に対処して<br></br>
-            最適化された学生による面白いアイデアを提供します。
-          </h4>
+          <div className = "">
+            <h4>
+            ・WEBシステム開発 <br></br>
+            ・Python,APIを用いたデータ分析・収集・加工 <br></br>
+            ・Adobe を用いた動画編集・デザイン作成 <br></br>
+            ・GIS等を用いた地図情報の可視化 <br></br>
+            </h4>
+          </div>
         </div>
-      </div>
     </div>
   );
 }

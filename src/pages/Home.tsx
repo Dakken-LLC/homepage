@@ -15,16 +15,16 @@ export default function HomePage() {
         <br></br>
         <h4>
           兵庫県立大学
-          社会情報科学部　DA研メンバーの学生たちによって設立されています。
+          社会情報科学部 DA研メンバーの学生たちによって設立されています。
           <br></br>
           主に兵庫県内の企業や自治体を中心にシステム開発やデータ分析を行っています。
         </h4>
         <br></br>
         <br></br>
         <h3>
-          <div className="fade-effect">
+        <div className="fade-effect">
           <span className="red-text">※只今Webサイトのリニューアル中です。</span>
-
+        </div>
         </h3>
         <br></br>
         <br></br>

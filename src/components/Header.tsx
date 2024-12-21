@@ -27,7 +27,7 @@ export default function HeaderLayout() {
           <LinkItem title="Home" to="/" />
           <LinkItem title="Vision" to="/vision" />
           <LinkItem title="Business" to="/business" />
-          <LinkItem title="Member" to="/member" />
+          {/* <LinkItem title="Member" to="/member" /> */}
           <LinkItem title="Contact" to="/contact" />
         </ul>
       </nav>
